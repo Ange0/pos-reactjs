@@ -23,8 +23,8 @@ export default function Products() {
    
     return (
         <>
-            <div className={`grid grid-cols-2 gap-2  max-h-[600px] overflow-auto mr-2  transition-all duration-1000 ${products ? 'opacity-100': 'opacity-0'}`}>
-                {products && products.map((product)=> <ProductItem product={product} key={product.id} />) }
+            <div className={`grid grid-cols-2 gap-2 max-h-[600px] overflow-auto mr-2  transition-all duration-1000 ${products ? 'opacity-100': 'opacity-0'}`}>
+                {products && products.map((product)=> <ProductItem productProps={product} key={product.id} />) }
             </div>
         </>
     );
