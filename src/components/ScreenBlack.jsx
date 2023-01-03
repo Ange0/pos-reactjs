@@ -22,7 +22,7 @@ export default function ScreenBlack() {
     return (
         <>
             {/* screen black two params for hidden screen z-index and opacity */} 
-            <div className={`flex items-center justify-center bg-black w-full h-full absolute ${screenIsOn ? 'z-[-2]': 'z-[20]'} rounded-[24px] ${screenIsOn ? 'opacity-0': 'opacity-100'}  tansition-all duration-[3000ms] oveflow-hidden`}>
+            <div className={`flex items-center justify-center bg-black w-full h-full absolute ${screenIsOn ? 'z-[-2]': 'z-[40]'} rounded-[24px] ${screenIsOn ? 'opacity-0': 'opacity-100'}  tansition-all duration-[3000ms] oveflow-hidden`}>
                 <div className={`bg-white opacity-5 w-40 h-[2000px] absolute rotate-[20deg] -top-48 -left-[30rem] ${!loading && !screenIsOn && 'animate-shine'}`}>
                 </div>
                 <div className="flex flex-col items-center space-y-2">

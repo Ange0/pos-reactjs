@@ -15,8 +15,8 @@ export default function ProductsCart() {
             <div className="flex flex-col max-h-60 space-y-4 overflow-auto">
                 {
                     cart.map((productInCart) => 
-                        <div key={productInCart.id} onMouseLeave={() => setCurrentIdProduct(null)} onClick={() => setCurrentIdProduct(productInCart.id)} className={`flex flex-none bg-stone-700 rounded-md relative p-2 h-14 text-xs overflow-hidden transition-all duration-200 ease-in-out }`}>
-                            <div className={`flex justify-between bg-[#2d2d2d] p-2 rounded-md absolute ${currentIdProduct === productInCart.id ? 'left-14' :'left-0'} transition-all duration-500 delay-200 h-full top-0 w-full shadow-xl shadow-rose-500/50`}>
+                        <div key={productInCart.id} onMouseLeave={() => setCurrentIdProduct(null)} onClick={() => setCurrentIdProduct(productInCart.id)} className={`flex flex-none bg-stone-700 rounded-md relative p-2 h-14 text-xs overflow-hidden transition-all duration-200 ease-in-out hover:opacity-80 }`}>
+                            <div className={`flex justify-between bg-[#2d2d2d] p-2 rounded-md absolute ${currentIdProduct === productInCart.id ? 'left-14' :'left-0'} transition-all duration-200 delay-200 h-full top-0 w-full shadow-xl shadow-rose-500/50`}>
                                 <div className="flex space-x-2">
                                     <div  className="h-full w-20 bg-cover bg-center rounded-lg" style={{backgroundImage: `url(${productInCart.urlImage})`}}  alt="burger-asiatique"></div>
                                     <div className="flex flex-col justify-between">
@@ -45,4 +45,4 @@ export default function ProductsCart() {
             </div>
         </>
     );
-}
+} 
