@@ -48,7 +48,7 @@ export default function OrderRecap() {
                     <div className="py-4 text-2xl border-t border-dotted">
                         <div className="flex justify-between">
                             <span>Total</span>
-                            <span className={`${cartHasBeenModified ? 'scale-[4]  opacity-0' : 'opacity-100'} transition duration-500`}>${totalOrder}</span>
+                            <span className={`${cartHasBeenModified ? 'translate-y-2  opacity-0' : 'opacity-100 translate-y-0'} transition duration-200`}>${totalOrder}</span>
                         </div>
                     </div>
                 </div>

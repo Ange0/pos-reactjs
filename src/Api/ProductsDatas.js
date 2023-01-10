@@ -16,7 +16,7 @@ export const ProductsDatas = [
         'note':'Extra Egg',
         'price': 12.5,
         'devise': '$',
-        'available': 10,
+        'available': 20,
         'urlImage': '/products/br-2.jpeg',
         'id_category': 1,
         
@@ -60,7 +60,7 @@ export const ProductsDatas = [
         'note':'prawn noodles',
         'price': 4.5,
         'devise': '$',
-        'available': 10,
+        'available': 9,
         'urlImage': '/products/ns-2.jpeg',
         'id_category': 2,
         
@@ -82,7 +82,7 @@ export const ProductsDatas = [
         'note':'with sugar',
         'price': 8.5,
         'devise': '$',
-        'available': 10,
+        'available': 7,
         'urlImage': '/products/dr-2.webp',
         'id_category': 3,
         
@@ -91,9 +91,9 @@ export const ProductsDatas = [
         'id': 9,
         'name': 'Dessert',
         'note':'without sugar',
-        'price': 10.5,
+        'price': 4.5,
         'devise': '$',
-        'available': 10,
+        'available': 9,
         'urlImage': '/products/ds-1.webp',
         'id_category': 4,
         
@@ -102,9 +102,9 @@ export const ProductsDatas = [
         'id': 10,
         'name': 'Dessert',
         'note':'without sugar',
-        'price': 10.5,
+        'price': 6.5,
         'devise': '$',
-        'available': 10,
+        'available': 4,
         'urlImage': '/products/ds-2.png',
         'id_category': 4,
         

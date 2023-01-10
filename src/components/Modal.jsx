@@ -11,7 +11,9 @@ export default function Modal() {
     return (
         <>
             {/* modal two params for hidden screen z-index and opacity */ }  
-                <div className={`flex items-center justify-center backdrop-blur-md bg-black/25 w-full h-full absolute  ${modalOpened ? 'z-[20] opacity-100' : 'z-[-2] opacity-0'} rounded-[24px] transition-all delay-100 duration-200 ease-[cubic-bezier(.1,-1.21,.55,1.37)]`}>
+                <div className={`flex items-center justify-center backdrop-blur-md bg-black/25 w-full h-full absolute  
+                    ${modalOpened ? 'z-[20] opacity-100' : 'z-[-2] opacity-0'} rounded-[24px] transition-all 
+                    delay-100 duration-200 ease-[cubic-bezier(.1,-1.21,.55,1.37)]`}>
                     <div className={`flex flex-col space-y-4 ${modalOpened ? 'scale-90' : 'opacity-0' } opacity-100 transition-all delay-100 duration-200 ease-in  w-1/3 shadow border rounded-md p-4`}>
                         <div className="flex justify-between items-center">
                             <span className="text-2xl">Pay Invoice </span>
